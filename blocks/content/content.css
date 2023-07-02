@@ -1,0 +1,5 @@
+.content {
+    display: grid;
+    gap: 70px;
+    background: var(--white);
+}

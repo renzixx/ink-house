@@ -1,0 +1,19 @@
+.promo__title {
+    position: relative;
+    width: 460px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1;
+    color: var(--white);
+    margin: 0 0 20px 0;
+    padding: 0 0 0 100px;
+}
+
+.promo__title::before {
+    content: url('../../../images/promo/star.svg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+}

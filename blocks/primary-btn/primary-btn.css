@@ -1,0 +1,21 @@
+.primary-btn {
+    height: 65px;
+    background: transparent;
+    color: var(--green);
+    border: 1px solid var(--green);
+}
+
+.primary-btn:hover {
+    color: var(--white);
+    background: var(--green);
+}
+
+.primary-btn:focus {
+    color: var(--green);
+    background: var(--light-green);
+}
+
+.primary-btn:active {
+    color: var(--white);
+    background: var(--dark-green);
+}

@@ -1,0 +1,7 @@
+.footer__social-icon-path {
+    transition: .2s ease;
+}
+
+.footer__social-icon:hover .footer__social-icon-path {
+    fill: var(--green);
+}

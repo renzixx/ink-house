@@ -1,0 +1,5 @@
+.reproductions__cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(210px, 1fr));
+    gap: 30px;
+}

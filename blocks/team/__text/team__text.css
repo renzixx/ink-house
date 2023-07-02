@@ -1,0 +1,9 @@
+.team__text {
+    position: absolute;
+    top: 188px;
+    left: 475px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+}

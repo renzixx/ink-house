@@ -1,0 +1,7 @@
+.footer__phone-text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.17;
+    color: var(--grey);
+    margin: 0;
+}

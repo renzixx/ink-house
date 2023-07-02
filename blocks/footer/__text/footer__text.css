@@ -1,0 +1,11 @@
+.footer__text {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.17;
+    color: var(--grey);
+    margin: 0;
+}
+
+.footer__text:not(:last-child) {
+    margin: 0 0 6px 0;
+}

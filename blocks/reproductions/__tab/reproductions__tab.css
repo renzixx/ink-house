@@ -1,0 +1,27 @@
+.reproductions__tab {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.17;
+    color: var(--black);
+    background: var(--light-green);
+    padding: 8px 18px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.reproductions__tab:hover {
+    background: var(--green);
+    color: var(--white);
+}
+
+.reproductions__tab:focus {
+    background: var(--light-green);
+    border-color: var(--green);
+}
+
+.reproductions__tab:active {
+    background: var(--dark-green);
+    color: var(--white);
+}

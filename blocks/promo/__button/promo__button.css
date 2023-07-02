@@ -1,0 +1,19 @@
+.promo__button {
+    width: 257px;
+    height: 65px;
+    background: var(--yellow);
+    color: var(--black);
+}
+
+.promo__button:hover {
+    background: var(--light-yellow);
+}
+
+.promo__button:focus {
+    background: var(--light-yellow);
+    border: 1px solid var(--brown);
+}
+
+.promo__button:active {
+    background: var(--brown);
+}

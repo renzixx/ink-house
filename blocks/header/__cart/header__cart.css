@@ -1,0 +1,7 @@
+.header__cart {
+    cursor: pointer;
+}
+
+.header__cart:hover .header__cart-path {
+    stroke: var(--green);
+}

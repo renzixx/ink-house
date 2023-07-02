@@ -1,0 +1,7 @@
+.header__menu-link {
+    color: var(--black);
+}
+
+.header__menu-link:hover {
+    color: var(--green);
+}

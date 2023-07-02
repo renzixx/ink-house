@@ -1,0 +1,10 @@
+.footer__column-link {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--grey);
+}
+
+.footer__column-link:hover {
+    color: var(--green);
+}

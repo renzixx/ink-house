@@ -1,0 +1,97 @@
+/* ======== Normalize ======== */
+@import url(../vendor/normalize.css);
+
+/* ======== Variables ======== */
+@import url(../vendor/variables.css);
+
+/* ======== Page ======== */
+@import url(../blocks/page/page.css);
+
+/* ======== Container ======== */
+@import url(../blocks/container/container.css);
+
+/* ======== Button ======== */
+@import url(../blocks/button/button.css);
+
+/* ======== Primary-btn ======== */
+@import url(../blocks/primary-btn/primary-btn.css);
+
+/* ======== List ======== */
+@import url(../blocks/list/list.css);
+
+/* ======== Link ======== */
+@import url(../blocks/link/link.css);
+
+/* ======== Header ======== */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__inner/header__inner.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu-list/header__menu-list.css);
+@import url(../blocks/header/__menu-link/header__menu-link.css);
+@import url(../blocks/header/__cart/header__cart.css);
+
+/* ======== Logo ======== */
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/logo/__link/logo__link.css);
+
+/* ======== Content ======== */
+@import url(../blocks/content/content.css);
+
+/* ======== Hero ======== */
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__inner/hero__inner.css);
+@import url(../blocks/hero/__image/hero__image.css);
+@import url(../blocks/hero/__title/hero__title.css);
+@import url(../blocks/hero/__title/_green/hero__title_green.css);
+@import url(../blocks/hero/__subtitle/hero__subtitle.css);
+@import url(../blocks/hero/__button/hero__button.css);
+
+/* ======== Reproductions ======== */
+@import url(../blocks/reproductions/reproductions.css);
+@import url(../blocks/reproductions/__inner/reproductions__inner.css);
+@import url(../blocks/reproductions/__title/reproductions__title.css);
+@import url(../blocks/reproductions/__tabs/reproductions__tabs.css);
+@import url(../blocks/reproductions/__tab/reproductions__tab.css);
+@import url(../blocks/reproductions/__cards/reproductions__cards.css);
+@import url(../blocks/reproductions/__card/reproductions__card.css);
+@import url(../blocks/reproductions/__card-image/reproductions__card-image.css);
+@import url(../blocks/reproductions/__card-author/reproductions__card-author.css);
+@import url(../blocks/reproductions/__card-title/reproductions__card-title.css);
+@import url(../blocks/reproductions/__card-subtitle/reproductions__card-subtitle.css);
+@import url(../blocks/reproductions/__card-price/reproductions__card-price.css);
+@import url(../blocks/reproductions/__card-button/reproductions__card-button.css);
+
+/* ======== Promo ======== */
+@import url(../blocks/promo/promo.css);
+@import url(../blocks/promo/__inner/promo__inner.css);
+@import url(../blocks/promo/__title/promo__title.css);
+@import url(../blocks/promo/__text/promo__text.css);
+@import url(../blocks/promo/__button/promo__button.css);
+
+/* ======== Team ======== */
+@import url(../blocks/team/team.css);
+@import url(../blocks/team/__inner/team__inner.css);
+@import url(../blocks/team/__image/team__image.css);
+@import url(../blocks/team/__title/team__title.css);
+@import url(../blocks/team/__text/team__text.css);
+@import url(../blocks/team/__avatars/team__avatars.css);
+@import url(../blocks/team/__avatar/team__avatar.css);
+
+/* ======== Footer ======== */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__inner/footer__inner.css);
+@import url(../blocks/footer/__info/footer__info.css);
+@import url(../blocks/footer/__phone/footer__phone.css);
+@import url(../blocks/footer/__phone-number/footer__phone-number.css);
+@import url(../blocks/footer/__phone-text/footer__phone-text.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
+@import url(../blocks/footer/__column-links/footer__column-links.css);
+@import url(../blocks/footer/__column-link/footer__column-link.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__social-links/footer__social-links.css);
+@import url(../blocks/footer/__social-link/footer__social-link.css);
+@import url(../blocks/footer/__social-icon-path/footer__social-icon-path.css);
+@import url(../blocks/footer/__text/footer__text.css);
