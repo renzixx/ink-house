@@ -1,0 +1,15 @@
+.team__avatars {
+    position: absolute;
+    top: 316px;
+    left: 475px;
+    display: flex;
+    gap: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .team__avatars {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+}

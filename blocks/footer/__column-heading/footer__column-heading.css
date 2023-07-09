@@ -8,3 +8,9 @@
 .footer__column-heading:hover {
     color: var(--green);
 }
+
+@media screen and (max-width: 768px) {
+    .footer__column-heading {
+        font-size: 18px;
+    }
+}

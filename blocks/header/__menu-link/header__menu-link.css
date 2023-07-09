@@ -1,7 +1,14 @@
 .header__menu-link {
+    font-size: 18px;
     color: var(--black);
 }
 
 .header__menu-link:hover {
     color: var(--green);
+}
+
+@media screen and (max-width: 768px) {
+    .header__menu-link {
+        font-size: 16px;
+    }
 }

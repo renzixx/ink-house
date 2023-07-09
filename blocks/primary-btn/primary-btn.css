@@ -19,3 +19,9 @@
     color: var(--white);
     background: var(--dark-green);
 }
+
+@media screen and (max-width: 768px) {
+    .primary-btn {
+        height: 60px;
+    }
+}

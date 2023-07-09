@@ -25,3 +25,9 @@
     background: var(--dark-green);
     color: var(--white);
 }
+
+@media screen and (max-width: 768px) {
+    .reproductions__tab {
+        font-size: 16px;
+    }
+}

@@ -1,3 +1,17 @@
 .header__menu {
     flex-basis: 410px;
 }
+
+@media screen and (max-width: 768px) {
+    .header__menu {
+        flex-basis: 361px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header__menu {
+        align-self: flex-start;
+        flex-basis: 0;
+        padding: 16px 0;
+    }
+}

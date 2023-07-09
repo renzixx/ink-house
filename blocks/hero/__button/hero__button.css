@@ -4,3 +4,10 @@
     right: 315px;
     width: 225px;
 }
+
+@media screen and (max-width: 768px) {
+    .hero__button {
+        top: 283px;
+        right: 135px;
+    }
+}

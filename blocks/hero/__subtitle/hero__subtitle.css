@@ -9,3 +9,24 @@
     color: var(--grey);
     margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .hero__subtitle {
+        top: 135px;
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .hero__subtitle {
+        top: 132px;
+        width: 315px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .hero__subtitle {
+        
+    }
+}

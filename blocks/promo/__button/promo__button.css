@@ -17,3 +17,10 @@
 .promo__button:active {
     background: var(--brown);
 }
+
+@media screen and (max-width: 768px) {
+    .promo__button {
+        width: 210px;
+        height: 60px;
+    }
+}

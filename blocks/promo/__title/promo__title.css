@@ -10,10 +10,42 @@
 }
 
 .promo__title::before {
-    content: url('../../../images/promo/star.svg');
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
+    background-image: url('../../../images/promo/star.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 80px;
     height: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .promo__title {
+        font-size: 30px;
+        padding: 0 0 0 80px;
+    }
+    .promo__title::before {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .promo__title {
+        font-size: 24px;
+        padding: 0 0 0 70px;
+    }
+    .promo__title::before {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .promo__title {
+        padding: 0 0 0 60px;
+    }
 }

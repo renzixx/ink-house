@@ -1,3 +1,10 @@
 .team__inner {
     position: relative;
 }
+
+@media screen and (max-width: 768px) {
+    .team__inner {
+        display: flex;
+        flex-direction: column;
+    }
+}

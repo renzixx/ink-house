@@ -1,3 +1,23 @@
 .logo_place_header {
     flex-basis: 640px;
 }
+
+@media screen and (max-width: 768px) {
+    .logo_place_header {
+        flex-basis: 200px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .logo_place_header {
+        flex-basis: 0;
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #C3D1C6;
+        padding: 16px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+}

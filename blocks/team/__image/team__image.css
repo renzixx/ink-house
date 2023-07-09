@@ -1,0 +1,12 @@
+.team__image {
+    width: 445px;
+    height: 440px;
+}
+
+@media screen and (max-width: 768px) {
+    .team__image {
+        width: 510px;
+        height: 504px;
+        margin: 0 0 40px 0;
+    }
+}

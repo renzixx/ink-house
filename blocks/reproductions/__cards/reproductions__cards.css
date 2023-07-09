@@ -3,3 +3,9 @@
     grid-template-columns: repeat(3, minmax(210px, 1fr));
     gap: 30px;
 }
+
+@media screen and (max-width: 768px) {
+    .reproductions__cards {
+        grid-template-columns: repeat(2, minmax(330px, 1fr));
+    }
+}

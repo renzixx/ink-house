@@ -9,3 +9,26 @@
     color: var(--black);
     margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .hero__title {
+        top: 35px;
+        width: 360px;
+        font-size: 40px;
+        line-height: 1;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .hero__title {
+        top: 50px;
+        width: 315px;
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .hero__title {
+        
+    }
+}

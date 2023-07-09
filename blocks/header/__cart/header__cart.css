@@ -5,3 +5,11 @@
 .header__cart:hover .header__cart-path {
     stroke: var(--green);
 }
+
+@media screen and (max-width: 576px) {
+    .header__cart {
+        position: absolute;
+        top: 83px;
+        right: 0;
+    }
+}

@@ -2,3 +2,23 @@
     width: 540px;
     height: 620px;
 }
+
+@media screen and (max-width: 768px) {
+    .hero__image {
+        width: 330px;
+        height: 380px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .hero__image {
+        width: 195px;
+        height: 239px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .hero__image {
+        display: none;
+    }
+}
