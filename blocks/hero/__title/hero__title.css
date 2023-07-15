@@ -27,8 +27,11 @@
     }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 320px) {
     .hero__title {
-        
+        top: 60px;
+        left: 0;
+        width: 230px;
+        font-size: 26px;
     }
 }

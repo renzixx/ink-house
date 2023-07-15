@@ -13,3 +13,9 @@
         left: 0;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .team__avatars {
+        gap: 25px;
+    }
+}

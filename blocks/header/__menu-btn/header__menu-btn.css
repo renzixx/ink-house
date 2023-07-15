@@ -1,0 +1,10 @@
+.header__menu-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}

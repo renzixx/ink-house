@@ -2,3 +2,15 @@
     padding: 23px 0;
     background: var(--light-green);
 }
+
+@media screen and (max-width: 576px) {
+    .footer {
+        min-height: 274px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        min-height: 355px;
+    }
+}

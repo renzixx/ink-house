@@ -9,3 +9,15 @@
         grid-template-columns: repeat(2, minmax(330px, 1fr));
     }
 }
+
+@media screen and (max-width: 576px) {
+    .reproductions__cards {
+        grid-template-columns: repeat(2, minmax(240px, 1fr));
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .reproductions__cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

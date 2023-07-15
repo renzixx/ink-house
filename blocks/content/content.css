@@ -2,6 +2,7 @@
     display: grid;
     gap: 70px;
     background: var(--white);
+    overflow: hidden;
 }
 
 @media screen and (max-width: 576px) {

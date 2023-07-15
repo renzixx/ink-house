@@ -4,3 +4,9 @@
     line-height: 1.17;
     margin: 0 0 8px 0;
 }
+
+@media screen and (max-width: 576px) {
+    .reproductions__card-title {
+        font-size: 22px;
+    }
+}

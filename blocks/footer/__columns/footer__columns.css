@@ -2,3 +2,21 @@
     display: flex;
     gap: 60px;
 }
+
+@media screen and (max-width: 576px) {
+    .footer__columns {
+        justify-content: space-between;
+        border-bottom: 1px solid #C3D1C6;
+        padding: 0 0 16px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__columns {
+        position: absolute;
+        top: 52px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px 92px;
+    }
+}

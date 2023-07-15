@@ -7,3 +7,10 @@
         padding: 40px 0 0;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .hero__inner {
+        min-height: 293px;
+        padding: 0;
+    }
+}

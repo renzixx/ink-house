@@ -9,3 +9,9 @@
 .footer__text:not(:last-child) {
     margin: 0 0 6px 0;
 }
+
+@media screen and (max-width: 576px) {
+    .footer__text {
+        justify-self: center;
+    }
+}

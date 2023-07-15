@@ -10,3 +10,18 @@
         margin: 0 0 40px 0;
     }
 }
+
+@media screen and (max-width: 576px) {
+    .team__image {
+        width: 375px;
+        height: 370px;
+        margin: 0 0 30px 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .team__image {
+        width: 290px;
+        height: 286px;
+    }
+}

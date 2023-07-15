@@ -25,3 +25,9 @@
         height: 60px;
     }
 }
+
+@media screen and (max-width: 576px) {
+    .primary-btn {
+        height: 50px;
+    }
+}

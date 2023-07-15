@@ -7,3 +7,9 @@
     transition: .2s ease;
     padding: 0;
 }
+
+@media screen and (max-width: 576px) {
+    .button {
+        font-size: 16px;
+    }
+}

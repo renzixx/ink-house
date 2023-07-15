@@ -14,3 +14,9 @@
         font-size: 18px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .footer__column-heading {
+        font-size: 16px;
+    }
+}

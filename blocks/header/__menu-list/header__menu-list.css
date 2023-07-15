@@ -2,3 +2,16 @@
     display: flex;
     gap: 60px;
 }
+
+@media screen and (max-width: 320px) {
+    .header__menu-list {
+        display: none;
+        flex-direction: column;
+        gap: 50px;
+        height: 250px;
+        padding: 35px 0 0;
+    }
+    .header__menu-list.active {
+        display: flex;
+    }
+}

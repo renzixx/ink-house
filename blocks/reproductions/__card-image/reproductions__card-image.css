@@ -2,3 +2,16 @@
     width: 100%;
     margin: 0 0 20px 0;
 }
+
+@media screen and (max-width: 768px) {
+    .reproductions__card-image {
+        height: 420px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .reproductions__card-image {
+        height: 250px;
+        margin: 0 0 15px 0;
+    }
+}

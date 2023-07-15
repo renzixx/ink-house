@@ -11,3 +11,19 @@
         right: 135px;
     }
 }
+
+@media screen and (max-width: 576px) {
+    .hero__button {
+        top: 239px;
+        right: 140px;
+        width: 175px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .hero__button {
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+}

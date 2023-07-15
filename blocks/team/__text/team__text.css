@@ -17,3 +17,16 @@
         margin: 0 0 30px 0;
     }
 }
+
+@media screen and (max-width: 576px) {
+    .team__text {
+        font-size: 16px;
+        margin: 0 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .team__text {
+        font-size: 14px;
+    }
+}
